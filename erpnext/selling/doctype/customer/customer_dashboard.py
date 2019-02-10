@@ -21,6 +21,14 @@ def get_data():
 			{
 				'label': _('Projects'),
 				'items': ['Project']
+			},
+			{
+				'label': _('Personal Details'),
+				'items': ['Customer Identity Documents', 'KRA Pin', 'Customer Next Of Kin', 'Customer Residence', 'Customer Spouse']
+			},
+			{
+				'label': _('Loans'),
+				'items': ['Loan Application']
 			}
 		]
 	}
